@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h4 class="display-4" style="color:purple">Change Price</h4>
+        <br><br>
+        <form action="ChangePrice.py" method="post">
+            <table>
+                <tr>
+                    <td>Enter Product Name </td>
+                    <td><input type="text" name="pdnm" class="form-control" autocomplete="off" required></td>
+                </tr>
+                <tr>
+                    <td> Enter Initial Price</td>
+                    <td> <input type="number" name="initpr" class="form-control" autocomplete="off" required> </td>
+                </tr>
+
+                <tr>
+                    <td> Enter Final Price</td>
+                    <td> <input type="number" name="finpr" class="form-control" autocomplete="off" required> </td>
+                </tr>
+            </table>
+            <table>
+                <br><br>
+
+                <tr>
+
+                    <td> <input type="submit" value="Change" class="btn btn-info"></td>
+                    <td> </td>
+                    <td><input type="reset" value="Reset" class="btn btn-danger"></td>
+                    </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
